@@ -1,0 +1,19 @@
+.config/hypr
+├── hyprland.conf
+├── hyprpaper.conf
+└── hyprsunset.conf
+
+1 directory, 3 files
+.config/fish
+├── completions
+├── conf.d
+├── config.fish
+├── fish_variables
+└── functions
+
+4 directories, 2 files
+.config/pipewire/
+└── pipewire-pulse.conf.d
+    └── pipewire-pulse-rules.conf
+
+2 directories, 1 file
