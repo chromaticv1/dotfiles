@@ -3,4 +3,6 @@
 
 //@theme "/home/chrom/.local/share/rofi/themes/simple-tokyonight.rasi"
 
-@theme "/home/chrom/.config/rofi/spotlight-dark.rasi"
+//@theme "/home/chrom/.config/rofi/spotlight-dark.rasi"
+
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
