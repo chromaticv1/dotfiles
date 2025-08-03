@@ -14,6 +14,7 @@ if 'wallpaperIndex' not in os.listdir(local_storage):
     dp('WP Index not found!, creating index')
     with open(f'{local_storage}/wallpaperIndex', 'w') as fp:
         fp.write("0")
+        current_index = 0
 else:
     dp('WP index found! reading')
     with open(f'{local_storage}/wallpaperIndex') as fp:
