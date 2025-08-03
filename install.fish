@@ -19,3 +19,6 @@ makepkg -si
 paru cloudflare-warp-bin
 systemctl enable warp-svc
 systemctl start warp-svc
+
+flatpak install flathub app.zen_browser.zen
+flatpak install flathub dev.vencord.Vesktop

@@ -1,1 +1,0 @@
-hyprland hyprpaper xdg-desktop-portal-hyprland hyprsunset hyprpolkitagent swaync swww qt5-wayland neovim kitty ghostty waybar obs-studio ttf-jetbrains-mono-nerd wl-clipboard grim slurp
