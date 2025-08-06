@@ -20,7 +20,6 @@ wl-clipboard
 grim
 slurp
 zed
-ripgrep
 nvim
 python
 python-pip
@@ -28,4 +27,15 @@ stow
 lazygit
 github-cli
 flatpak
-
+yazi
+ffmpeg
+7zip
+jq
+poppler
+fd
+fzf
+zoxide
+resvg
+imagemagick
+ripgrep
+rio-terminal
