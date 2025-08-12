@@ -1,4 +1,3 @@
-nnn
 tree
 kvantum
 qt6ct
@@ -7,6 +6,7 @@ nwg-look
 rofi-wayland
 hyprland
 xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
 hyprsunset
 hyprpolkitagent
 swaync
@@ -38,4 +38,5 @@ zoxide
 resvg
 imagemagick
 ripgrep
-rio-terminal
+ghostty
+npm
