@@ -1,6 +1,7 @@
 import os
 import random
-
+import subprocess
+import json
 
 debug = False
 def dp(args):
@@ -32,8 +33,18 @@ dp(indices)
 
 new_indices_index = random.randint(0, len(indices)-1)
 new_index = indices[new_indices_index]
+wp_dir = f'{wallpapers_dir}/{pictures[new_index]}'
 dp(f"new number is {new_index}")
-
-os.system(f'swww img {wallpapers_dir}/{pictures[new_index]}')
+subprocess.Popen(f'swww img {wp_dir} --filter Nearest', shell=True)
 with open(f'{local_storage}/wallpaperIndex', 'w') as fp:
         fp.write(str(new_index))
+
+#Hellwal
+from hellwal import get_sorted_colors
+cols = get_sorted_colors(wp_dir)[:3]
+
+formatted_colors = ''.join(['0xff'+x+' ' for x in cols])
+
+print(formatted_colors)
+subprocess.Popen(f'hyprctl keyword general:col.active_border {formatted_colors}',
+    shell = True)
